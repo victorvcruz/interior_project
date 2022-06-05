@@ -6,13 +6,14 @@
 
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
 
 
   </head>
   <body>
-    <header>
+    <header id="box-header">
 
-        <div id="box-header">
             <div id="top-header">
                 <p id="top-message">Free wordwide shipping delivery over $300</p>
             </div>
@@ -43,7 +44,6 @@
                         </ul>
                     </div>
                     
-
                 </div>
 
                 <div id="tabs-space">
@@ -68,7 +68,7 @@
                 
                         </li>
                         <li>
-                            <h3>ACESSORIES</h3>
+                            <h3 class ="tabs-text">ACESSORIES</h3>
 
                         </li>
 
@@ -76,89 +76,127 @@
                 </div>
             </div>
 
-        </div>
 
     </header>
 
     <main>
         <div id="box-first-home">
+
+            <div id="first-home-img"></div>
+
             <div id="first-home-text">
-                <h1>
+                <h1 id="text-in-first-home">
                     We offering you the best home decor products & items for a dream home
                 </h1>
-
-                <button>Explore our Products</button>
-
             </div>
 
-            <div id="first-home-img">
-                <img class= "image">
+            <div id="first-home-button">
+                <p id="first-home-button-text">Explore our Products</p>
             </div>
+            
+
+           
         </div>
 
-        <div>
-            <ul>
-                <li>
-                    <h3>FIND</h3>
-                    <h1>Unique & Modren Products></h1>
-                    <p>A considered line of versatlie products designed to work in every room</p>
-                </li>
-                <li>
-                    <h3>BUY</h3>
-                    <h1>Expertly Vettted Quality</h1>
-                    <p>Beautiful, durable materials selected for a lover impact and longer lifespan</p>
-                </li>
-                <li>
-                    <h3>COLLECT</h3>
-                    <h1>Delivery At Your door</h1>
-                    <p>Support, guidance, and original content to help you organize with intention</p>
-                </li>
-            </ul>
-        </div>
-
-        <!-- <div>
-            <div>
-                <h1>New Arrivals</h1>
-                <p>We’ve designed and curated pieces that are a cut above your average home goods, because when you level up your everyday objects, you elevate your daliy rituals.</p>
-                <p>View all</p>
-            </div>
-
-            <div>
-                <ul>
+        <div id="elements-list-first-home">
+            <div id="list-for-text-in-home">
+                <ul id="list-only-text">
                     <li>
-                        <img class= "image">
-                        <p>Arm Sofas</p>
-                        <p>$45.80</p>
+                        <h3 class="first-list-text-h3">FIND</h3>
+                        <h1 class="first-list-text-h1">Unique & Modren Products</h1>
+                        <p class="first-list-text-p">A considered line of versatlie products designed to work in every room</p>
+                    </li>
+                    <li>
+                        <h3 class="first-list-text-h3">BUY</h3>
+                        <h1 class="first-list-text-h1">Expertly Vettted <br> Quality</h1>
+                        <p class="first-list-text-p">Beautiful, durable materials selected for a lover impact and longer lifespan</p>
+                    </li>
+                    <li>
+                        <h3 class="first-list-text-h3">COLLECT</h3>
+                        <h1 class="first-list-text-h1">Delivery At Your <br> door</h1>
+                        <p class="first-list-text-p">Support, guidance, and original content to help you organize with intention</p>
                     </li>
                 </ul>
+            </div> 
+        </div>
+
+        <div id="list-images-and-text">
+            <div id="text-before-list">
+                <h1 class ="text-before-list-h1">New Arrivals</h1>
+                <p class ="text-before-list-p">We’ve designed and curated pieces that are a cut above your average home goods, because when you level up your everyday objects, you elevate your daliy rituals.</p>
+                <p class ="text-before-list-p-underline">View all</p>
+            </div>
+
+            <div id="box-list-of-images">
+
+                <div id="image-list-last"></div>
+                <div id="image-list-last-text">
+                    <p><p class = "text-of-list-text-and-images">Arm Sofas</p></p>
+                </div>
+
+                <div id="first-value">
+                    <p class ="text-of-list-text-and-images-value">$45.80</p>
+                </div>
+
+                <div id="second-value">
+                    <p class ="text-of-list-text-and-images-value">$45.80</p>
+                </div>
+
+                <div id="third-value">
+                    <p class ="text-of-list-text-and-images-value">$45.80</p>
+                </div>
+
+                <ul id="list-of-images">
+                    <li>
+                        <img class= "image-list" src="images/first-image-three.jpeg">
+                        <p class = "text-of-list-text-and-images">Arm Sofas</p>
+                    </li>
+                    <li>
+                        <img class= "image-list" src="images/second-image-three.jpeg">
+                        <p class = "text-of-list-text-and-images">Arm Sofas</p>
+                    </li>
+                    <li>
+                        <img class= "image-list" src="images/third-image-three.jpeg">
+                        <p class = "text-of-list-text-and-images">Arm Sofas</p>
+                    </li>
+                </ul>
+
+                
+
 
             </div>
         </div> 
         
-        <div>
-            <div>
-                <img class= "image">
+        <div id="box-four-home">
+            <div id="box-first-image-four-home">
+                <img class= "image-four-home" src="images/first-image-four.jpeg">
             </div>
 
-            <div>
-                <h1>Shop By Category</h1>
+            <div id="box-text-four-home">
+                    <h1 class="title-small-home">Shop By Category </h1>
+                    <br><br><br><br>
 
-                <p>Treandy Sofa Set</p>
+                    <p class="text-four-home-p">Treandy Sofa Set</p>
+                    <br><br><br>
 
-                <p>Minimal & Modern Chairs</p>
+                    <h2 id="text-four-home-h2">Minimal & Modern Chairs</h2>
+                    <br><br><br>
 
-                <p>Accesories For Room</p>
+                    <p class="text-four-home-p">Accesories For Room</p>
+                    <br><br><br>
 
-                <p>Kitchen Items</p>
+                    <p class="text-four-home-p">Kitchen Items</p>
+                    <br><br>
 
-                <p>Outdoor Decor</p>
+                    <p class="text-four-home-p">Outdoor Decor</p>
+                    <br><br><br><br>
 
-                <p>SEE MORE</p>
+                <h3 id="text-four-home-h3">SEE MORE</h3>
                 
             </div>
 
-            <div>
-                <img class= "image">
+            <div id="box-second-image-four-home">
+                <img class= "image-four-home" src="images/second-image-four.jpeg">
             </div>
 
 
@@ -166,213 +204,283 @@
 
         </div>
 
-        <div>
+        <div id="box-five-home">
+            <div id="box-text-five-home">
+                <div id="first-line-five-home">
+                    <div id="box-first-image-five-home">
+                        <img class= "image-five-home" src="images/first-image-five.jpeg">
+                    </div>
 
-            <div>
-                <span>The Halal.Interior A</span>
-                <img class= "image">
-
-            </div>
-
-            <div>
-                <p>Contemporary House For The</p>
-            </div>
-
-            <div>
-                <span>Modern Human</span>
-                <img class= "image">
-
-            </div>
-
-
-        </div>
-
-        <div>
-
-
-            <div>
-                <h2>SHOP BY ROOM</h2>
-                <img class= "image">
-            
-            </div>
-        
-            <div>
-                <h2>
-                    Kitchen Room</h2>
-            </div>
-
-            <div>
-                <h2>
-                    / Living Room</h2>
-            </div>
-
-            <div>
-                <h2>
-                    / Home Office</h2>
-            </div>
-
-            <div>
-                <h2>
-                    / Dining Room</h2>
-            </div>
-
-            <div>
-                <h2>
-                    / Kids Room</h2>
-            </div>
-
-            <div>
-                <h2>
-                    / Bed Room</h2>
-            </div>
-
-
-        </div>
-
-        <div>
-            <div>
-                <h3>#halallab</h3>
-                <img class= "image">
-                <h3>Follow us on instagram</h3>
-            </div>
-
-            <div>
-                <ul>
-                    <li>
-                        <img class= "image">
-                    </li>
-
-                    <li>
-                        <img class= "image">
-                    </li>
-
-                    <li>
-                        <img class= "image">
-                    </li>
+                    <span class="text-five-home">The &ensp; &ensp; &nbsp; &nbsp; Halal.Interior A</span>  
                     
-                    <li>
-                        <img class= "image">
-                    </li>
 
+                </div>
 
-                </ul>
+                <div id="second-line-five-home">
+                    <p class="text-five-home">Contemporary House For The</p>
+                </div>
+
+                <div id="third-line-five-home">
+                    <div id="box-second-image-five-home">
+                        <img class= "image-five-home" src="images/second-image-five.jpeg">
+                    </div>
+
+                    <span class="text-five-home">Modern &ensp; &ensp; &nbsp; &nbsp; Human</span>
+                    
+                    
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="box-six-home">
+            <div id="box-content-six-home">
+
+                <h2 class ="title-small-home">SHOP BY ROOM</h2>
+                
+
+            
+                
+
+                
+
+                <div id="second-text-six-home">
+                    <h2 class="texts-six-home">
+                        / Living Room</h2>
+                </div>
+
+                <div id="first-group-text-six-home">
+                    <p class="texts-six-home">
+                        / Home Office &nbsp; &nbsp; / Entryway &nbsp; / Dining Room</p>
+
+                    <p class="texts-six-home">
+                        </p>
+
+                    <p class="texts-six-home">
+                        </p>
+                </div>
+
+                <div id="second-group-text-six-home">
+                    <h2 class="texts-six-home">
+                        / Kids Room &nbsp; / Bed Room</h2>
+
+                </div>
+
+                <div id="image-six-home"><img class= "image-six-home" src="images/image-six-home.jpeg"></div>
+
+                <div id="first-text-six-home">
+                    <h2 id="first-text-six-home-h2">
+                        Kitchen Room</h2>
+                </div>
             </div>
 
-
         </div>
+
+        <div id="box-seven-home">
+            <div id="content-seven-home">
+                <div id="text-seven-home">
+                    <h3 id ="first-text-seven-home">#halallab</h3>
+
+                    <div id="text-instagram"> 
+                        <h3 id="second-text-seven-home">Follow us on instagram</h3>
+                    </div>
+
+                    <div id="image-instagram">
+                        <img id="image-instagram-seven-home" src="images/icon-instagram.jpeg">
+                    </div>
+
+                </div>
+
+                <div id="list-images-seven-home">
+                    <ul id="list-images-content">
+                        <li>
+                            <img class= "images-seve-home" src="images/first-list-image-seven.jpeg">
+                        </li>
+
+                        <li>
+                            <img class= "images-seve-home" src="images/second-list-image-seven.jpeg">
+                        </li>
+
+                        <li>
+                            <img class= "images-seve-home" src="images/third-list-image-seven.jpeg">
+                        </li>
+                        
+                        <li>
+                            <img id="last-image-seven-home" src="images/four-list-image-seven.jpeg">
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+        </div> 
 
     </main>
     
-    <footer>
-        <div>
-            <div>
-                <h1>We Provide best handpicked home decor</h1>
-                <button>Explore our Products</button>
+    <footer id="box-footer">  
+            <div id="first-container-footer">
+                <h1 id="first-container-footer-text">
+                    <br>
+                    We Provide best <br>
+                    handpicked home decor
+                </h1>
+                <br><br><br>
+                
+                <div id="container-button-footer">
+                    <p id="first-container-footer-button">Explore our Products</p>
+                </div>
             </div>
 
-            <div>
-                <div>
-                    <h1>Subscribe to reCeive grape news & offers</h1>
-                    <p>Enter your emali</p>
-                    <input type="checkbox"></input>
-                    <p>I've read the Privacy Policy and I consent to Halal Interior sending me marketing communications</p>
+            <div id="second-container-footer">
+                <div id="second-container-first-box-footer">
+                    <div id="second-container-first-box-footer-content">
+                        <h1 id="second-container-first-box-footer-text">Subscribe to reCeive grape news & offers</h1>
+                        
+                        <div id="send-email-container-footer">
+                            <div id="box-email-text-container-footer">
+                                <p id="email-text-container-footer">Enter your email</p>
+                            </div>    
+
+                            <div id="box-icon-email-footer">
+                                <p id="icon-email-footer">></p>
+                            </div>
+                        </div>
+
+                        <div id="i-agree-box">
+                            <div id="check-box-send-email"></div>
+                            
+                            <div id="i-agree-text-box">
+                                <p id="text-i-agree">I've read the Privacy Policy and I consent to Halal Interior sending me marketing communications</p>
+                            </div>    
+                        </div>  
+
+                    </div>
                 </div>
 
-                <div>
-                    <ul>
-                        <li>
-                            <p>Instagram</p>
-                        </li>
-                        <li>
-                            <p>Facebook</p>
-                        </li>
-                        <li>
-                            <p>Pinterest</p>
-                        </li>
-                        <li>
-                            <p>Twitter</p>
-                        </li>
-                    </ul>
+                <div id="second-container-second-box-footer">
+                    <div id="social-media-box">
+                        <ul id="social-media-list">
+                            <li>
+                                <p class="text-social-media-footer">Instagram</p>
+                            </li>
+                            <li>
+                                <p class="text-social-media-footer">Facebook</p>
+                            </li>
+                            <li>
+                                <p class="text-social-media-footer">Pinterest</p>
+                            </li>
+                            <li>
+                                <p class="text-social-media-footer">Twitter</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="local-box">
+                        <div id="local-image-box">
+                            <img id= "image-local-footer" src="images/local-footer-image.jpeg">
+                        </div>
+
+                        <div id="local-text-box">
+                            <p id="local-text-footer">United States</p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div>
-                    <img class= "image">
-                    <p>United States</p>
+                <div id="second-container-three-box-footer">
+                    <div id="border-second-container-three-box"></div>
+                    <div id="list-text-second-container-three-box">
+                        <ul id="list-text-second-container-three">
+                            <li>
+                                <p class="text-three-container">
+                                    All productr <br><br>
+                                    Best sellers <br><br>
+                                    New arrivals <br><br>
+                                    lowest prices <br><br>
+                                    Delivery <br><br>
+                                </p>
+
+                            </li>
+                            <li>
+                                <p class="text-three-container">
+                                    Privacy policy <br><br>
+                                    Order online <br><br>
+                                    Contact us <br><br>
+                                    Returns & Claims <br><br>
+                                </p>
+
+                            </li>
+                            <li>
+                                <p class="text-three-container">
+                                    About us <br><br>
+                                    Our promise <br><br>
+                                    My account <br><br>
+                                </p>
+
+                            </li>
+                            <li>
+                                <p class="text-three-container">
+                                    Blog <br><br>
+                                    Reviews <br><br>
+                                    privacy policy <br><br>
+                                    lookbook <br><br>
+                                </p>
+
+                            </li>
+    
+                        </ul>
+                    </div>
+    
+                    <div id="second-container-four-box">
+                        <div id="text-content-second-container-four-box">
+                            <p id="text-second-container-four-box">We Accept</p>
+                        </div>
+                        <div id="box-icons-pay-second-container-four-box">
+                            <ul id="icons-pay-second-container-four-box">
+
+                                <li>
+                                    <img class= "icons-pay" src="images/icon-amazon-pay.jpeg">
+                                </li>
+                                <li>
+                                    <img class= "icons-pay" src="images/icon-apple-pay.jpeg">
+                                </li>
+                                <li>
+                                    <img class= "icons-pay" src="images/icon-google-pay.jpeg">
+                                </li>
+                                <li>
+                                    <img class= "icons-pay" src="images/icon-jcb.jpeg">
+                                </li>
+                                <li>
+                                    <img class= "icons-pay" src="images/icon-mastercard.jpeg">
+                                </li>
+                                <li>
+                                    <img class= "icons-pay" src="images/icon-visa.jpeg">
+                                </li>
+        
+                            </ul>
+                        </div>
+                    </div>
+    
                 </div>
+
+                
 
             </div>
 
-            <div>
-                <div>
-                    <ul>
-                        <li>
-                            <p>All productr</p>
-                            <p>Best sellers</p>
-                            <p>New arrivals</p>
-                            <p>lowest prices</p>
-                            <p>Delivery</p>
-                        </li>
-                        <li>
-                            <p>Privacy policy</p>
-                            <p>Order online</p>
-                            <p>Contact us</p>
-                            <p>Returns & Claims</p>
-                        </li>
-                        <li>
-                            <p>About us</p>
-                            <p>Our promise</p>
-                            <p>My account</p>
-                        </li>
-                        <li>
-                            <p>Blog</p>
-                            <p>Reviews</p>
-                            <p>privacy policy</p>
-                            <p>lookbook</p>
-                        </li>
+            <div id="third-container-footer">
+                <div id="copyright-box">
+                    <h2 id="copyright-text">© 2021 ChiranjitH.com. All rights reserved.</h2>
+                </div>  
 
-                    </ul>
-                </div>
-
-                <div>
-                    <ul>
-                        <li>
-                            <p>We Accept</p>
-                        </li>
-
-                        <li>
-                            <img class= "image">
-                        </li>
-                        <li>
-                            <img class= "image">
-                        </li>
-                        <li>
-                            <img class= "image">
-                        </li>
-                        <li>
-                            <img class= "image">
-                        </li>
-                        <li>
-                            <img class= "image">
-                        </li>
-                        <li>
-                            <img class= "image">
-                        </li>
-
-                    </ul>
-                </div>
-
+                <div id="privacy-policy-box">
+                    <h2 id="privacy-policy-text">Privacy Policy | Terms of Use</h2>
+                </div>  
             </div>
 
-            <div>
-                <h2>© 2021 ChiranjitH.com. All rights reserved.</h2>
-                <h2>Privacy Policy | Terms of Use</h2>
-            </div>
+    </footer>  
 
 
-        </div>
-    </footer> -->
-
-
-    <img src="imagens/firefox-icon.png" alt="minha página de teste">
   </body>
 </html>
