@@ -1,22 +1,12 @@
-/* body {
-    position: absolute;
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-} */
-
 #box-header {
     position: relative;
     width: 100%;
     height: 160px;
-    left: 0px;
-    top: 0px;
 
 }
 
 #top-header{
     position: absolute;
-    top: 0px;
     width: 100%;
     height: 36.16px;
     background-color: #000000;
@@ -45,7 +35,6 @@
     position:relative;
     width: 100%;
     height: 97.63px;
-    left: 0px;
     top: 62.37px;
     background: #ffffff;
     
@@ -53,8 +42,6 @@
 
 #text-body-header{
     position: relative;
-    top: 0px;
-    left: 0px;
     height: 40.63px;
 }
 
@@ -70,13 +57,11 @@
 
 #menu-text-first{
     position: absolute;
-    top: 0px;
     left: 125px;
 }
 
 #menu-text-second{
     position: absolute;
-    top: 0px;
     left: 235px;
     
 }
@@ -91,7 +76,6 @@
     position: absolute;
     width: 203.55px;
     height: 30.12px;
-    top: 0px;
     left: 50%;
     margin-left: -100px;
     background-origin: padding-box;
@@ -110,7 +94,6 @@
     position: absolute;
     width: 240px;
     height: 30.12px;
-    top: 0px;
     right: 10%;
 }
 
@@ -120,9 +103,6 @@
     
 }
 
-#icons {
-    margin-top: 0px;
-}
 
 #icons li{
     display: inline-block;
@@ -178,7 +158,7 @@
 
 #first-home-text{
     position: absolute;
-    width: 600px;
+    width: 650px;
     height: 360px;
     top: 100px;
     left: 45px;
@@ -255,9 +235,9 @@
 
 #list-for-text-in-home{
     position: absolute;
-    width: 100%;
+    width: 1200px;
     height: 187px;
-    left: 0px;
+    left: 25%;
     top:100px;
 
 }
@@ -289,7 +269,7 @@
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 38px;
     line-height: 43px;
     text-align: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
@@ -430,7 +410,6 @@
     width: 270px;
     height: 462px;
     right: 0px;
-    top: 0px;
     background-color: blueviolet;
     background: url(images/last-image-three.jpeg);
     background-repeat: no-repeat;
@@ -453,13 +432,20 @@
     
 }
 
+#box-four-home-content{
+    position: relative;
+    width: 1200px;
+    height: 850px;
+    left: 25%;
+    top: 70px;
+}
+
 #box-first-image-four-home{
     position: absolute;
     width: 250px;
     height: 289px;
-    left: 100px;
     top: 187.5px;
-    background-color: #37c41b;
+
 }
 
 
@@ -467,9 +453,9 @@
     position: absolute;
     width: 250px;
     height: 289px;
-    right: 100px;
+    right: 0px;    
     top: 187.5px;
-    background-color: #37c41b;
+
 }
 
 .image-four-home{
@@ -489,8 +475,8 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 19px;
     text-align: center;
     text-transform: uppercase;
     color: #000000;
@@ -500,8 +486,8 @@
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 50px;
+    line-height: 80px;
     text-align: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #A89C93;
@@ -511,8 +497,8 @@
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 55px;
+    line-height: 80px;
     text-align: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #000000;
@@ -522,8 +508,8 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 19px;
     letter-spacing: 0.05em;
     text-decoration-line: underline;
     text-align: center;
@@ -539,10 +525,10 @@
 
 #box-text-five-home{
     position: relative;
-    width: 100%;
+    width: 1200px;
     height: 415px;
     top: 163.75px;
-    right: 0px;
+    left: 25%;
 
 }
 
@@ -561,12 +547,11 @@
     width: 981px;
     height: 128px;
     left: 164px;
-    top: 0px;
 }
 
 #second-line-five-home{
     position: absolute;
-    width: 1109px;
+    width: 100%;
     height: 128px;
     left: 50px;
     top: 148px;
@@ -608,12 +593,11 @@
 
 #box-content-six-home{
     position: relative;
-    width: 100%;
+    width: 1500px;
     height: 557px;
     top: 100px;
-    left: 0px;
+    left: 15%;
     margin: 0px;
-    background-color: #37c41b;
 
 }
 
@@ -669,9 +653,8 @@
 
 #first-group-text-six-home{
     position: absolute;
-    width: 1720px;
+    width: 100%;
     height: 96px;
-    left: 0px;
     top: 248px;
 
 }
@@ -696,7 +679,7 @@
     position: relative;
     width: 1560px;
     height: 467px;
-    left: 160px;
+    left: 15%;
     top: 200px;
     background: #ffffff;
 }
@@ -705,7 +688,6 @@
     position: relative;
     width: 100%;
     height: 80px;
-    left: 0px;
 
 }
 
@@ -722,7 +704,6 @@
     position: absolute;
     width: 252px;
     height: 24px;
-    top: 0px;
     right: 0px;
 
 }
@@ -743,7 +724,6 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    top: 0px;
     right: 254px;
 
 }
@@ -757,7 +737,6 @@
     position: absolute;
     width: 100%;
     height: 392px;
-    left: 0px;
     top: 80px;
 
 }
@@ -806,7 +785,7 @@
     position: absolute;
     width: 299px;
     height: 67px;
-    left: 900px;
+    left:44%;
 }
 
 #first-container-footer-button{
@@ -827,8 +806,16 @@
 
 #second-container-footer{
     position: relative;
+    width: 80%;
+    height: 480px;
+    left: 5%;
+}
+
+#second-container-footer-content{
+    position: relative;
     width: 100%;
     height: 480px;
+    left: auto;
 }
 
 #second-container-first-box-footer{
@@ -1032,11 +1019,12 @@
     width: 830px;
     height: 480px;
     margin-left: 1px;
+    border-left: 1px solid #665244;
 }
 
 #list-text-second-container-three-box{
     position: absolute;
-    width: 1050px;
+    width: 800px;
     height: 200px;
     top:80px;
     left: 20px;
@@ -1068,10 +1056,9 @@
 
 #second-container-four-box{
     position: absolute;
-    width: 1115px;
+    width: 740px;
     height: 150px;
     top:330px;
-    right:100px;
     border-top: 1px solid #665244;
     border-bottom: 1px solid #665244;
 }
