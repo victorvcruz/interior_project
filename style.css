@@ -1,9 +1,9 @@
-body {
+/* body {
     position: absolute;
-    width: 100%;
-    height: 500%;
-    margin: 0 auto
-}
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+} */
 
 #box-header {
     position: relative;
@@ -20,7 +20,7 @@ body {
     width: 100%;
     height: 36.16px;
     background-color: #000000;
-    color:#FCFBFA
+    color:#FCFBFA;
 }
 
 #top-message{
@@ -132,7 +132,7 @@ body {
 
 #tabs-space{
     position: absolute;
-    width: 50%;
+    width: 800px;
     height: 30.12px;
     bottom: 12px;
     left: 25%;
@@ -178,17 +178,17 @@ body {
 
 #first-home-text{
     position: absolute;
-    width: 780px;
+    width: 600px;
     height: 360px;
     top: 100px;
-    left: 125px;
+    left: 45px;
 }
 
 #text-in-first-home{
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 80px;
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
@@ -199,9 +199,8 @@ body {
     position: absolute;
     width: 270px;
     height: 70px;
-
     top: 500px;
-    left: 125px;
+    left: 45px;
 
 }
 
@@ -222,14 +221,26 @@ body {
 
 }
 
-#first-home-img{
+#first-home-img-first{
     position: absolute;
-    width: 819px;
-    height: 710px;
-    left: 1140px;
-    top: 40px;
+    width: 430px;
+    height: 671px;
+    right: 30px;
+    bottom: 0px;
     background-color: blueviolet;
-    background: url(images/home-first-image.jpeg);
+    background: url(images/first-home-image-first.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first-home-img-second{
+    position: absolute;
+    width: 249px;
+    height: 363px;
+    right: 500px;
+    bottom: 0px;
+    background-color: blueviolet;
+    background: url(images/first-home-img-second.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -244,9 +255,9 @@ body {
 
 #list-for-text-in-home{
     position: absolute;
-    width: 1800px;
+    width: 100%;
     height: 187px;
-    left: 250px;
+    left: 0px;
     top:100px;
 
 }
@@ -257,7 +268,7 @@ body {
 
 #list-only-text li{
     display: inline-block;
-    margin-right: 200px;
+    margin-left: 10px;
     width: 374px;
     height: 187px;
 
@@ -306,7 +317,7 @@ body {
     margin-top: 0px;
     width: 402px;
     height: 283px;
-    left: 125px;
+    left: 10px;
     top: 153px;
 
 }
@@ -347,7 +358,7 @@ body {
     margin-top: 0px;
     width: 1400px;
     height: 522px;
-    left: 740px;
+    right: 0px;
     top: 50px;
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid #000000;
@@ -418,7 +429,7 @@ body {
     position: absolute;
     width: 270px;
     height: 462px;
-    left: 1135px;
+    right: 0px;
     top: 0px;
     background-color: blueviolet;
     background: url(images/last-image-three.jpeg);
@@ -430,7 +441,7 @@ body {
     position: absolute;
     width:100px;
     height: 24px;
-    left: 1135px;
+    left: 1130px;
     top: 462px;
 }
 
@@ -444,9 +455,9 @@ body {
 
 #box-first-image-four-home{
     position: absolute;
-    width: 350px;
-    height: 389px;
-    left: 281px;
+    width: 250px;
+    height: 289px;
+    left: 100px;
     top: 187.5px;
     background-color: #37c41b;
 }
@@ -454,22 +465,22 @@ body {
 
 #box-second-image-four-home{
     position: absolute;
-    width: 350px;
-    height: 389px;
-    left: 1500px;
+    width: 250px;
+    height: 289px;
+    right: 100px;
     top: 187.5px;
     background-color: #37c41b;
 }
 
 .image-four-home{
-    width: 350px;
-    height: 389px;
+    width: 250px;
+    height: 289px;
 }
 
 #box-text-four-home{
     position: absolute;
     top: 70px;
-    left: 665px;
+    left: 200px;
     width: 800px;
     height: 780px;
 }
@@ -478,8 +489,8 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 12px;
+    line-height: 15px;
     text-align: center;
     text-transform: uppercase;
     color: #000000;
@@ -489,8 +500,8 @@ body {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 500;
-    font-size: 60px;
-    line-height: 80px;
+    font-size: 40px;
+    line-height: 60px;
     text-align: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #A89C93;
@@ -500,8 +511,8 @@ body {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 500;
-    font-size: 60px;
-    line-height: 80px;
+    font-size: 40px;
+    line-height: 60px;
     text-align: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #000000;
@@ -511,8 +522,8 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 12px;
+    line-height: 15px;
     letter-spacing: 0.05em;
     text-decoration-line: underline;
     text-align: center;
@@ -528,10 +539,10 @@ body {
 
 #box-text-five-home{
     position: relative;
-    width: 1809px;
+    width: 100%;
     height: 415px;
     top: 163.75px;
-    left: 174px;
+    right: 0px;
 
 }
 
@@ -539,16 +550,15 @@ body {
     font-family: 'Playfair Display';
     font-style: italic;
     font-weight: 600;
-    font-size: 100px;
+    font-size: 80px;
     line-height: 128px;
-    text-align: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #000000;
 }
 
 #first-line-five-home{
     position: absolute;
-    width: 1481px;
+    width: 981px;
     height: 128px;
     left: 164px;
     top: 0px;
@@ -556,15 +566,15 @@ body {
 
 #second-line-five-home{
     position: absolute;
-    width: 1809px;
+    width: 1109px;
     height: 128px;
-    left: 0px;
+    left: 50px;
     top: 148px;
 }
 
 #third-line-five-home{
     position: absolute;
-    width: 1240px;
+    width: 840px;
     height: 128px;
     left: 300px;
     top: 287px;
@@ -574,11 +584,11 @@ body {
     position: absolute;
     width: 240px;
     height: 128px;
-    left: 210px;
+    left: 150px;
 }
 
 .image-five-home{
-    width: 240px;
+    width: 220px;
     height: 128px;
 }
 
@@ -586,7 +596,7 @@ body {
     position: absolute;
     width: 240px;
     height: 128px;
-    left: 393px;
+    left: 290px;
 }
 
 #box-six-home{
@@ -598,10 +608,12 @@ body {
 
 #box-content-six-home{
     position: relative;
-    width: 1720px;
+    width: 100%;
     height: 557px;
     top: 100px;
-    left: 216px;
+    left: 0px;
+    margin: 0px;
+    background-color: #37c41b;
 
 }
 
@@ -638,7 +650,7 @@ body {
 
 #second-text-six-home{
     position: absolute;
-    width: 578px;
+    width: 478px;
     height: 96px;
     left: 775px;
     top: 100px;
@@ -684,7 +696,7 @@ body {
     position: relative;
     width: 1560px;
     height: 467px;
-    left: 280px;
+    left: 160px;
     top: 200px;
     background: #ffffff;
 }
@@ -745,6 +757,7 @@ body {
     position: absolute;
     width: 100%;
     height: 392px;
+    left: 0px;
     top: 80px;
 
 }
@@ -1016,7 +1029,7 @@ body {
 #second-container-three-box-footer{
     position: absolute;
     left:930px;
-    width: 1214px;
+    width: 830px;
     height: 480px;
     margin-left: 1px;
 }
@@ -1026,7 +1039,7 @@ body {
     width: 1050px;
     height: 200px;
     top:80px;
-    left:100px;
+    left: 20px;
 } 
 
 
@@ -1038,7 +1051,7 @@ body {
 #list-text-second-container-three li{
     display: flex;
     flex-direction: column;
-    margin-right: 104px;
+    margin-right: 60px;
     margin-top: 0px;
 }
 
